@@ -10,7 +10,7 @@ function App() {
       className= "w-full h-screen  duration-200"
       style={{ backgroundColor: color }}
     >
-      <div className="fixed flex justify-center flex-wrap  bottom-1 inset -x-0 px-2">
+      <div className="fixed flex justify-center flex-wrap  bottom-1 inset-x-0 px-2">
         <button
           onClick={() => setColor("red")}
           className="flex-wrap  justify-center gap-1 shadow-lg bg-white

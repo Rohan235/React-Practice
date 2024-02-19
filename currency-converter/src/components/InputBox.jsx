@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React, {useId} from 'react'
 
 function InputBox({
@@ -7,7 +9,7 @@ function InputBox({
     onCurrencyChange,
     currencyOptions = [],
     selectCurrency = "usd",
-    amountDisable = false,
+    amountDisable = false,  
     currencyDisable = false,
     className = "",
 }) {
